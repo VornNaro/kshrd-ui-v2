@@ -1,0 +1,63 @@
+.card-box-course-training {
+  width: 100%;
+  border: 0 !important;
+  border-radius: 0 !important;
+  border-bottom: 4px solid #0a5695 !important;
+  padding-bottom: 10px;
+  text-align: center !important;
+  margin: 0;
+}
+
+.card-course-training-img {
+  width: 90px;
+  height: 900px;
+  margin: 15px auto;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+}
+
+.card-course-training-img > img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  object-fit: contain;
+}
+.card-course-training-title {
+  font-weight: 600;
+  padding: 20px auto;
+}
+
+.card-course-training-description > p {
+  margin: 0;
+}
+
+.card-course-training-link {
+  color: #000000 !important;
+}
+
+.card-course-training-link:hover {
+  text-decoration: none;
+  color: var(--primary-color) !important;
+}
+
+.slide-ct {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 575.98px) {
+  .card-box-course-training {
+    padding: 10px !important;
+  }
+
+  .course-training-skeleton .course-training-skeleton-child:not(:nth-child(1)) {
+    display: none !important;
+  }
+}

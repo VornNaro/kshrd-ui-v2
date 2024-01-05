@@ -1,0 +1,12 @@
+#icon{
+    font-size: 15px !important;
+}
+.sidebar{
+    text-align: start !important;
+}
+.nav-item{
+    margin-top: 5%;
+}
+.nav-sidebar li{
+    margin-bottom: 5% !important;
+}

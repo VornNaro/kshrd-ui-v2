@@ -1,0 +1,18 @@
+/* .btn-add-course-training-type{
+    margin-right: "100% !important";
+} */
+
+.btn-add{
+    background-color: #0A5695;
+    border: 0;
+    border-radius: 0%;
+}
+.btn-view{
+    border-radius: 0%;
+}
+.btn-edit{
+    border-radius: 0%;
+}
+.btn-delete{
+    border-radius: 0%;
+}

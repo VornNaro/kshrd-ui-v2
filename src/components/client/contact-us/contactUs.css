@@ -1,0 +1,33 @@
+.contact-title {
+  background-color: var(--primary-color);
+}
+
+.wrapper-contact {
+  background-color: #ffffff;
+}
+
+.contact-title > * {
+  text-align: center;
+  color: #ffffff;
+}
+
+.contact-us {
+  padding: 0;
+}
+
+.contact-us > * {
+  color: #000000;
+}
+
+.contact-info > li > span:first-child,
+.contact-info li > .icon-item {
+  color: var(--primary-color);
+}
+
+.contact-phone {
+  color: #000000;
+}
+
+.contact-phone:hover {
+  text-decoration: none;
+}

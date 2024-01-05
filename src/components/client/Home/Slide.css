@@ -1,0 +1,27 @@
+.slide-home-container {
+  height: 550px;
+  outline: none;
+}
+
+.slide-home-container img {
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.slide-home-container-3 img {
+  object-fit: cover;
+  object-position: 100% 20%;
+}
+
+@media screen and (max-width: 578px) {
+  .slide-home-container-3 img {
+    object-fit: cover;
+    object-position: top;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slide-home-container {
+    height: 300px;
+  }
+}

@@ -1,0 +1,54 @@
+.card-header {
+  background-color: rgba(10, 86, 149, 0.7) !important;
+  color: #ffffff;
+}
+
+.card-header > h5 {
+  margin: 0;
+  opacity: 1;
+}
+
+.our-course-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.our-course-title > h5 {
+  font-weight: 600;
+  margin: 0;
+}
+
+.custom-scroll::-webkit-scrollbar {
+  width: 10px;
+  background-color: lightgrey;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: darkgray;
+  border-radius: 10px;
+}
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: gray;
+  cursor: pointer !important;
+}
+
+.custom-scroll {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  height: 750px;
+  margin: 10px;
+  overflow: auto;
+}
+
+.more-course-link {
+  color: #050505;
+}
+
+/* For all pages */
+.all-page-container {
+  height: 100%;
+  max-height: 500px;
+  overflow: auto;
+}

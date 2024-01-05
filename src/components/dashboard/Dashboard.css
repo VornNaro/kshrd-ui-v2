@@ -1,0 +1,10 @@
+a:hover{
+    text-decoration: none !important;
+}
+.small-box{
+    border-bottom: 5px solid #0A5695;
+    border-radius: 0%;
+}
+.bg-dashboard{
+    background-color: white;
+}

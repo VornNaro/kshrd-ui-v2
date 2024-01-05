@@ -1,0 +1,93 @@
+.footer {
+  background-color: #000000;
+}
+.footer-item {
+  width: 30%;
+}
+.about-title {
+  line-height: 2rem;
+}
+
+.list-contact {
+  color: #ffffff;
+  padding: 0;
+  list-style: none;
+}
+.list-contact > li {
+  line-height: 2rem;
+}
+.tel-contact {
+  text-indent: 30px;
+}
+
+.email-contact {
+  text-indent: 32px;
+}
+
+.address-contact {
+  display: flex;
+  align-content: center;
+  align-items: flex-start;
+}
+.follow-page {
+  text-align: left;
+  margin: 0 auto;
+}
+.line-footer {
+  border-bottom: 1px solid #ffffff;
+}
+.social-wrap {
+  display: flex;
+  align-items: center;
+}
+.social-wrap > * {
+  margin: 0 5px;
+}
+.social-icon {
+  margin: 0 5px;
+}
+
+@media (max-width: 780px) {
+  .footer-item:last-child {
+    padding: 0;
+  }
+
+  .follow-page {
+    margin-bottom: 20px;
+  }
+
+  .footer-bottom div div {
+    justify-content: center;
+  }
+
+  .footer-bottom p {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .social-wrap {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .social-wrap p {
+    padding: 0;
+  }
+}
+
+@media (min-width: 780px) {
+  .footer-bottom p {
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .social-wrap {
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 992px) {
+  .social-wrap {
+    justify-content: flex-start;
+  }
+}

@@ -1,0 +1,33 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --primary-color: #0a5695;
+  --secondary-color: #1473e6;
+  --bg-color: #f5f5f7;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color) !important;
+  font-family: Helvetica, sans-serif, Arial, "khmer os Battambang" !important;
+  overflow-x: hidden;
+}
+.card {
+  box-shadow: none;
+}
+
+blockquote {
+  border: 0;
+  padding: 0;
+}
+
+.custom-control,
+.custom-switch {
+  padding: 0 !important;
+  margin: 0 !important;
+}

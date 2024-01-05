@@ -1,0 +1,96 @@
+.korean-class-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box-title > h2 {
+  color: #ffffff;
+  white-space: nowrap;
+  padding: 15px 50px;
+  font-size: 4rem;
+}
+
+.box-title > h2 > * {
+  font-weight: bold;
+}
+
+.top-box {
+  border-left: 5px solid var(--primary-color);
+}
+
+.img-detail {
+  width: 100%;
+  min-height: 175px;
+  padding: 10px;
+}
+
+.img-detail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-icon {
+  padding: 10px;
+}
+
+.k-card-title {
+  text-align: center;
+}
+
+.card-detail {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.card-content {
+  line-height: 2em;
+}
+
+.card-content > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+}
+
+.k-list-card {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: flex-start;
+}
+
+.k-card-title {
+  padding: 0.5rem 0 !important;
+}
+
+.k-list-card > img {
+  margin-top: 6px;
+}
+
+.k-card-body {
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (max-width: 575.98px) {
+  .k-top-image {
+    flex-direction: column !important;
+  }
+  .k-card-bottom > * {
+    margin-bottom: 20px;
+  }
+  .home-container {
+    left: 0;
+  }
+
+  .home-container h2 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+}

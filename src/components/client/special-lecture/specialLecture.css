@@ -1,0 +1,175 @@
+.home-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.home-container {
+  content: "";
+  display: flex;
+  top: 150px;
+  left: 15%;
+  z-index: 2;
+  position: relative;
+}
+
+.home-inner-container::before {
+  display: table;
+  content: " ";
+  width: 80%;
+  margin: auto;
+}
+
+.home-container h2 {
+  font-size: 75px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: -3px;
+  margin-bottom: 20px;
+}
+
+/* .special-description {
+  background-color: #ffffff;
+} */
+
+.special-description > p {
+  opacity: 0.8;
+}
+
+/* .list-wrapper {
+  padding: 30px 60px !important;
+} */
+
+.special-list {
+  padding: 30px !important;
+}
+
+.special-list {
+  padding-left: 10% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.special-list ul {
+  padding: 0;
+}
+
+.special-list ul li {
+  list-style: none;
+  line-height: 2.5em;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  opacity: 0.8;
+}
+
+.list-title {
+  font-size: 20px;
+  margin: 1rem 0;
+}
+
+.specail-ite {
+  background-color: #ffffff;
+}
+
+.s-icon {
+  width: 90px;
+}
+
+.img-box-bg {
+  margin-top: 30px;
+  min-width: 100%;
+  height: 290px;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-left: -30px;
+}
+
+.img-box-bg img {
+  position: absolute;
+  top: -30px;
+  left: 30px;
+  width: 100%;
+  height: 100%;
+}
+
+.s-title {
+  padding: 1.5rem;
+}
+
+.s-title > h4 {
+  font-weight: 600;
+  padding: 0.5rem 2rem 0;
+}
+
+.s-title > p {
+  line-height: 2em;
+  opacity: 0.8;
+  padding-left: 2em;
+}
+
+.special-lecture-nav-link {
+  font-weight: 600;
+  color: #000000;
+  white-space: nowrap;
+}
+
+.special-lecture-nav-link:hover {
+  text-decoration: none !important;
+  color: var(--primary-color) !important;
+  padding: 20px 0 !important;
+  border-bottom: 2px solid rgba(10, 86, 149, 0.2) !important;
+}
+
+.special-lecture-nav-link.active {
+  padding: 19px 0 !important;
+  border-bottom: 3px solid var(--primary-color) !important;
+}
+
+.owl-item {
+  padding: 18px 0 !important;
+  /* margin: 0 20px !important; */
+}
+
+.special-lecture-menu {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.cus-swiper-wrapper {
+  position: absolute !important;
+}
+
+@media (max-width: 575.98px) {
+  .img-box-bg {
+    max-height: 230px !important;
+  }
+
+  .img-box-bg {
+    margin-left: -20px;
+  }
+
+  .img-box-bg img {
+    top: -20px;
+    left: 20px;
+  }
+
+  .s-title {
+    padding: 0 !important;
+    margin-top: 10px;
+  }
+
+  .s-title > h4 {
+    padding-left: 0 !important;
+  }
+
+  .s-title > p {
+    padding-left: 0 !important;
+  }
+}

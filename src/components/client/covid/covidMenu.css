@@ -1,0 +1,15 @@
+.covid-navbar {
+  background-color: var(--secondary-color);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-content {
+  text-decoration: underline;
+}
+
+.covid-navbar:hover {
+  text-decoration: underline;
+}

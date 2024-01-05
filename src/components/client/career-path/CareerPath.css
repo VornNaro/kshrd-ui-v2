@@ -1,0 +1,99 @@
+.career-path-title {
+    padding-left: 20%;
+    color: #000000;
+}
+
+.menu-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-box>.menu-box-link {
+    padding-left: 20%;
+    margin: 5px 0;
+}
+
+.menu-box-link {
+    color: #000000 !important;
+    padding: 15px 0;
+}
+
+.menu-box-link:hover {
+    text-decoration: none !important;
+}
+
+.menu-box-link.active {
+    color: #ffffff !important;
+    background-color: var(--primary-color) !important;
+}
+
+.career-path-content {
+    background-color: #ffffff;
+}
+
+.career-path-image-top {
+    width: 100%;
+}
+
+.career-path-image-top>img {
+    max-height: 500px;
+}
+
+.career-path-desc-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.career-path-line {
+    width: 100%;
+    color: var(--primary-color);
+    border: 0;
+    height: 3px;
+    background-color: var(--primary-color);
+}
+
+.career-path-detail-list ul {
+    list-style: none;
+}
+
+.career-path-detail-list ul li {
+    line-height: 2em;
+}
+
+.career-path-detail-list>ul>li {
+    list-style-image: url("../../images/listicon.svg");
+}
+
+.career-path-card-title>h5 {
+    max-height: 50px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.sub-content-detail {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.career-path-body {
+    padding: 0.25rem;
+}
+
+.swal-wide {
+    width: 1000px !important;
+}
+
+@media (max-width: 768px) {
+    .career-path-body {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}

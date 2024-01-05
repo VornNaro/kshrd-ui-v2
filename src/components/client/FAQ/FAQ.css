@@ -1,0 +1,77 @@
+#test li {
+  list-style: none;
+}
+
+#test li::before {
+  content: "\2022";
+  color: #0a5695;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+#test li {
+  font-size: 1em;
+}
+
+#g {
+  color: #0a5695;
+}
+
+.styles_faq-row-wrapper__3Hsch .styles_faq-row__2Rd2Y {
+  border: 0 !important;
+}
+.row-title {
+  color: #0a5695;
+  /* justify-content: start !important; */
+}
+.row-title:first-child {
+  align-content: start !important;
+}
+.row-title:last-child {
+  align-content: end !important;
+}
+
+.viwat:before {
+  content: "Q. ";
+  color: #0a5695;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.styles_faq-row-wrapper__3Hsch
+  .styles_row-body__8wIE9
+  .styles_faq-row__2Rd2Y
+  .styles_row-title__2yqnt::before {
+  padding: 10px;
+  display: flex;
+  /* justify-content: space-between; */
+  color: var(--row-title-color, black);
+  font-weight: 400;
+  font-size: var(--row-title-text-size, large);
+  /* letter-spacing: 0.25px; */
+  cursor: pointer;
+  align-items: center;
+}
+.styles_faq-row-wrapper__3Hsch
+  .styles_row-body__8wIE9
+  .styles_faq-row__2Rd2Y
+  .styles_row-title__2yqnt
+  .styles_icon-wrapper__wjX56 {
+  max-width: 25px;
+  max-height: 50px;
+  color: var(--arrow-color, black);
+}
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  /* vertical-align: -0.125em; */
+}
+.icon-wrapper .styles_icon-wrapper__wjX56 {
+  justify-content: start-end;
+}
+
+.faq-title > h2 {
+  font-size: 2.5rem;
+}

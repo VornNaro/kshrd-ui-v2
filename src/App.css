@@ -1,0 +1,79 @@
+.App {
+    /* text-align: center; */
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.table tbody+tbody {
+    border-top: 1px solid #dee2e6 !important;
+}
+
+.table td,
+.table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6 !important;
+    text-align: left;
+    border: 1px solid #eee !important;
+}
+
+.table th {
+    background: #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #eee !important;
+}
+
+.sweet-table tr th {
+    font-weight: 500;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.sweet-table tr td {
+    font-weight: 100;
+    padding-bottom: 10px
+}
+
+.form-horizontal label:not(.form-check-label):not(.custom-file-label) {
+    font-weight: normal !important;
+    text-align: right;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    backgrounad-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
